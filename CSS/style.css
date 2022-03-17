@@ -27,6 +27,56 @@ a {
     align-items: center;
 }
 
+
+/* FOOTER con grid */
+
+.footer {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid #e28090;
+    grid-template-areas: 
+    "redes derycon logoFooter";
+}
+
+.footer .redes {
+    grid-template-areas: redes;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: black;
+}
+
+.footer .redes a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .redes i{
+    font-size: 2em;
+    margin-right: 2rem;
+}
+
+.footer .derycon {
+    grid-template-areas: deycon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.footer .logoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    grid-template-areas: logoFooter;
+}
+
 /*TITULO*/
 
 section#titulo{
@@ -64,33 +114,11 @@ img#idBanner{
 /* CATEGORIAS con grid */
 
 .hero {
-    display: grid;
-    grid-template-columns: minmax(10);
-    grid-template-rows: minmax(10);
-}
-
-.hero div { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero div h2 { 
     margin: 3rem;
+}
+
+.tituloCat {
     text-align: center;
-    border-bottom: 2px solid #e28090;
-
-}
-
-.hero .portadas {
-display: flex;
-align-items: center;
-justify-content: space-around;
-}
-
-.hero .portadas a img {
-    padding: 15px;
-    border-radius: 20px;
-    width: 500px;
 }
 
 
