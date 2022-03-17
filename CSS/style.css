@@ -157,7 +157,7 @@ img#idBanner{
     
 }
 
-/*FORMULARIO DE CONTACTO*/
+/*FORMULARIO DE CONTACTO
 
 input[type=text], select, textarea {
     width: 100%;
@@ -202,7 +202,17 @@ input[type=text], select, textarea {
     align-items: center;
   }
 
+*/
 
+.formularioModified {
+    margin: 3rem;
+    align-items: center;
+}
+
+.formularioArea {
+    align-items: center;
+    justify-content: center;
+}
 
  /* CLASES */
 
